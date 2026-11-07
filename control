@@ -1,0 +1,14 @@
+Package: com.wave12.unlockwave
+Name: 2712
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: Giao diện iOS 26 (Liquid Glass) cho iOS 12, tối ưu iPhone 6
+ 2712 mang diện mạo iOS 26 lên iPhone chạy iOS 12: icon lan từ tâm khi mở khóa, thẻ app phóng ra khi mở / đóng, thanh tab kính nổi với thấu kính lỏng, Trung tâm điều khiển và phím mật mã có viền kính, hộp thoại kiểu iOS 26 và Dynamic Island ảo cố định. Cài đặt tại Cài đặt › 2712. Tác giả PucPucPuc, ý tưởng từ 26Unlock của blu_tek.
+Maintainer: PucPucPuc
+Author: PucPucPuc
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/Wave12Prefs.bundle/sileo-icon.png
+SileoDepiction: file:///Library/PreferenceBundles/Wave12Prefs.bundle/depiction.json
+Header: file:///Library/PreferenceBundles/Wave12Prefs.bundle/banner.png
+Suggests: preferenceloader

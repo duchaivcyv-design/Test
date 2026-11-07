@@ -1,0 +1,63 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#34C759",
+ "headerImage": "file:///Library/PreferenceBundles/Wave12Prefs.bundle/banner.png",
+ "tabs": [
+  {
+   "tabname": "Chi tiết",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Giao diện iOS 26 cho iOS 12",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**2712** mang diện mạo **iOS 26** lên iPhone chạy **iOS 12**, tối ưu cho iPhone 6 — mượt, không nảy, không nặng máy.\n\n- Mở khóa & về Home: icon lan từ tâm ra\n- Mở / đóng ứng dụng: thẻ app phóng ra từ chính icon\n- Thanh tab nổi bằng kính, thấu kính lỏng khi chạm giữ, tự đổi sáng / tối theo nền\n- Trung tâm điều khiển và phím mật mã có viền kính\n- Hộp thoại & bảng chọn kiểu iOS 26: nút viên thuốc trong suốt, xếp chồng, chữ canh giữa\n- Dynamic Island ảo cố định một vị trí, không xoay theo máy\n- Danh sách loại trừ, bật / tắt từng tính năng\n\nCài đặt nằm tại **Cài đặt › 2712**.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Tác giả",
+     "text": "PucPucPuc"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Phiên bản",
+     "text": "4.6.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Hỗ trợ",
+     "text": "iOS 12 · arm64 · rootful"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Ý tưởng",
+     "text": "26Unlock của blu_tek"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    }
+   ]
+  },
+  {
+   "tabname": "Thay đổi nhật ký",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "### 4.1.0\n- Hộp thoại cao hơn, chỉnh lại cỡ chữ\n- Bỏ công tắc kiểu iOS 26\n\n### 4.0.x\n- Đổi tên thành 2712, tác giả PucPucPuc\n- Hộp thoại to hơn, bảng chọn kiểu iOS 26\n- Tự bảo vệ khi SpringBoard chết sớm\n- Icon, banner và mô tả mới\n\n### 3.10.x\n- Sửa lệch chữ trong nút hộp thoại\n- Hết nhấp nháy khi chạm nút\n- Viền kính mảnh, thanh tab tự đổi sáng / tối",
+     "useSpacing": true
+    }
+   ]
+  }
+ ]
+}
