@@ -68,11 +68,10 @@ jobs:
       - name: download sdks
         if: steps.cache-sdks.outputs.cache-hit != 'true'
         run: |
-          curl -LO https://github.com/theos/sdks/archive/master.zip
-          unzip -q master.zip
           mkdir -p theos/sdks
-          mv sdks-master/*.sdk theos/sdks/
-          rm -rf master.zip sdks-master
+          git clone --depth 1 https://github.com/theos/sdks.git sdks-tmp
+          mv sdks-tmp/*.sdk theos/sdks/
+          rm -rf sdks-tmp
 
       - name: set THEOS env var
         run: echo "THEOS=$GITHUB_WORKSPACE/theos" >> $GITHUB_ENV
